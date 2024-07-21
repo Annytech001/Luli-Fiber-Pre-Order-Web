@@ -4,21 +4,16 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Luli Fiber Pre Order Form</title>
-  <link rel="stylesheet" href="style.css"
+  <link rel="stylesheet" href="styles.css"
 </head>
 <body>
     <div class="container">
-      <center>
-        <img
-          src="./images /LULI LOGO.jpg"
-          width="400px"
-          margin-left="350px"
-          alt="Luli-logo"
-        />
-      </center>
+        <img src="/images /LULILOGO.jpg" class="small-image"
+          
+
       <form action="#" method="post">
         <h2>PRE ORDER FORM</h2>
-        <h3>Kindly fill the form carefully for registration</h3>
+        <h4>Kindly fill the form carefully for registration</h4>
 
         <select id="purpose">
           <option>SELECT PURPOSE</option>
@@ -28,71 +23,98 @@
         <!-- <input type="select" id="commerical" name="Home use" required> -->
 
         <h3>Client Details</h3>
-        <div class="form-group">
-          <div class="form-control">
-            <label for="firstName">First Name:</label>
-            <input type="text" id="firstName" name="firstName" required />
-          </div>
-
-          <div class="form-control">
-            <label for="lastName">Last Name:</label>
-            <input type="text" id="lastName" name="lastName" required />
-          </div>
-        </div>
-
-        <div class="form-group">
-          <div class="form-control">
-            <label for="email"> Active E-mail:</label>
-            <input type="email" id="email" name="email" required />
-          </div>
-          <div class="form-control">
-            <label for="email"> Confirm E-mail:</label>
-            <input
-              type="email"
-              id="email"
-              name="email"
-              placeholder="Confirm E-mail"
-            />
-          </div>
-        </div>
-
-        <div class="form-group">
-          <div class="form-control">
-            <label for="birthdate">Date of Birth:</label>
-            <input type="date" id="birthdate" name="birthdate" required />
-          </div>
-          <div class="form-control">
-            <label for="gender">Gender:</label>
-            <select id="Gender">
-              <option>Select Gender</option>
-              <option>Female</option>
-              <option>Male</option>
-            </select>
-          </div>
           <div class="form-group">
             <div class="form-control">
-              <label for="Address">Address:</label>
-              <input type="address" id="address" name="address" required />
+              <label for="firstName">First Name:</label>
+              <input type="text" 
+                     id="firstName" 
+                    placeholder="FirstName" required />
+            </div>
+  
+            <div class="form-control">
+              <label for="lastName">Last Name:</label>
+              <input type="text"
+                     id="lastName" 
+                    placeholder="LastName" required />
+            </div>
+          </div>
+  
+          <div class="form-group">
+            <div class="form-control">
+              <label for="email"> Active E-mail:</label>
+              <input type="Email"
+                    id="email"
+                   placeholder="Email" required/>
             </div>
             <div class="form-control">
-              <label for="Phone number">Phone Numner:</label>
-              <select id="Number">
-  
-        </div>
-        <label for="address">Address:</label>
-        <input type="address" id=" address" name="address" required />
+              <label for="email"> Confirm E-mail:</label>
+              <input
+                type="Email"
+                id="email"
+                placeholder="Confirm E-mail" required/>
+            </div>
 
-        <label for="number">Phone Number:</label>
-        <input type="number" id="number" name="number" required />
+          </div>
 
-        <label for="number">WhatsApp Number:</label>
-        <input type="number" id="number" name="number" required />
+          <div class="Kyc">
+            <label for="KYC">NIN/Rc Number</label>
+            <input type="number" 
+                  id ="number" required/>
+          </div>
 
-        <label for="scheduleDate">Schedule Date:</label>
-        <input type="date" id="scheduleDate" name="scheduleDate" required />
+          <div class="form-group">
+            <div class="form-control">
+              <label for="birthdate">Date of Birth:</label>
+              <input type="date" 
+              id="birthdate" required />
+            </div>
+            </div>
 
-        <input type="submit" value="Submit" />
-      </form>
-    </div>
+
+            <div class="gendercontrol">
+              <span class="genderbox"> Gender</span>
+              <div class="gendertype">
+                <label for="gender">Male:</label>
+              <input type ="radio">
+              <label for="gender">Female:</label>
+              <input type ="radio">
+              <label for="gender">Others:</label>
+              <input type ="radio">
+              </div>
+              
+            </div>
+
+            <div class="addresscontrol">
+              <label for="address">Address:</label>
+              <input type="address" 
+                    id=" address" 
+                    placeholder="address" required/>
+            </div>
+       
+            <div class="numscontrol">
+              <label for="number">Phone Number:</label>
+              <input type="number" 
+                    id="number"
+                    placeholder="number" required/>    
+            </div>
+            
+          <div class="numscontrol2">
+            <label for="number">WhatsApp Number:</label>
+            <input type="number" 
+                  id="number"
+                  placeholder="number" required/>
+          </div>
+          
+          <div class="schedule">
+            <label for="scheduleDate">Schedule Date:</label>
+            <input type="date" 
+                  id="scheduleDate" required/>
+          </div>
+          <div class="summitform">
+            <input type="submit" value="Submit" />
+          </div>
+         
+        </form>
+      </div>
   </body>
 </html>
