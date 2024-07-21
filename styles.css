@@ -9,17 +9,54 @@ body{
     height: 100vh;
     justify-content: center;
     align-items: center;
-    background-image:url(/fiber\ image.jpg);
+    background-image:url(/fiberimage.jpg);
     background-size:cover;
 
 }
 .small-image {
     width:150px;
     height:Auto;
-    padding-bottom: 550px;
+    padding-bottom: 600px;
     align-items:center;
-    justify-content: center;
+    justify-content:center;
 }
+.container{
+    width: 100%;
+    max-width: 650px;
+    background:rgb(116, 2, 108, 0.5);
+    padding: 50px;
+    margin: 50 20px;
+    border-radius: 10px;
+    box-shadow: inset 4px 4px 4px white ;
+    color: white;
+    height: 700px;
 
+}
+.formtitle{
+    font-size: 30px;
+    text-align: center;
+    padding-bottom: 15px;
+    color: white;
+    text-shadow: 2px 2px 2px black;
+    border-bottom: solid 2px white;
+}
+h4{
+    font-size: 13px;
+    padding:10px;
+    font-weight: lighter;
+}
+h3{
+    font-size: 20px;
+    padding: 10px;
+    text-shadow: 2px 2px 2px black;
+    
+
+}
+#purpose{
+    padding:8px;
+    border-radius:10px;
+    color: rgb(101, 14, 162);
+    font-weight: bold;
+}
 
 

@@ -4,13 +4,14 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Luli Fiber Pre Order Form</title>
-  <link rel="stylesheet" href="styles.css"
+  <link rel="stylesheet" href="styles.css">
 </head>
+ 
 <body>
-  <img src="/images /LULILOGO.jpg" class="small-image"
+  <img src="/images /LULILOGO.jpg" class="small-image">
     <div class="container">
        <form action="#" method="post">
-        <h2>PRE ORDER FORM</h2>
+        <h2 class="formtitle">PRE ORDER FORM</h2>
         <h4>Kindly fill the form carefully for registration</h4>
 
         <select id="purpose">
@@ -18,40 +19,38 @@
           <option>Home Use</option>
           <option>Commerical Use</option>
         </select>
-        <!-- <input type="select" id="commerical" name="Home use" required> -->
-
+      
         <h3>Client Details</h3>
-          <div class="form-group">
-            <div class="form-control">
+          <div class="nameinfo">
+            <div class="first-control">
               <label for="firstName">First Name:</label>
               <input type="text" 
                      id="firstName" 
-                    placeholder="Enter firstName" required />
+                    placeholder="Enter Firstname" required />
             </div>
   
-            <div class="form-control">
+            <div class="last-control">
               <label for="lastName">Last Name:</label>
               <input type="text"
                      id="lastName" 
-                    placeholder="Enter lastName" required />
+                    placeholder="Enter Lastname" required />
             </div>
           </div>
   
-          <div class="form-group">
-            <div class="form-control">
+          <div class="emailinfo">
+            <div class="email-control">
               <label for="email"> Active E-mail:</label>
               <input type="Email"
                     id="email"
                    placeholder="Enter Email" required/>
             </div>
-            <div class="form-control">
+            <div class="confirm-control">
               <label for="email"> Confirm E-mail:</label>
               <input
                 type="Email"
                 id="email"
                 placeholder="Confirm E-mail" required/>
             </div>
-
           </div>
 
           <div class="Kyc">
@@ -60,8 +59,8 @@
                   id ="number" required/>
           </div>
 
-          <div class="form-group">
-            <div class="form-control">
+          <div class="birthinform">
+            <div class="birthcontrol">
               <label for="birthdate">Date of Birth:</label>
               <input type="date" 
               id="birthdate" required />
@@ -111,7 +110,6 @@
           <div class="summitform">
             <input type="submit" value="Submit" />
           </div>
-         
         </form>
       </div>
   </body>
