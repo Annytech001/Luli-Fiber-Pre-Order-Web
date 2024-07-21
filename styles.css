@@ -1,13 +1,25 @@
-body {
+ *{
     margin:0;
     padding:0;
     font-family: sans-serif;
     box-sizing:border-box;
-    background-color: antiquewhite;
+}
+body{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-image:url(/fiber\ image.jpg);
+    background-size:cover;
+
+}
+.small-image {
+    width:150px;
+    height:Auto;
+    padding-bottom: 550px;
+    align-items:center;
+    justify-content: center;
 }
 
-.small-image {
-    width:100px;
-    height:auto;
-}
+
 
