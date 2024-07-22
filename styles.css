@@ -50,7 +50,6 @@ h3{
     padding: 10px;
     text-shadow: 2px 2px 2px black;
     
-
 }
 #purpose{
     padding:8px;
@@ -58,5 +57,27 @@ h3{
     color: rgb(101, 14, 162);
     font-weight: bold;
 }
-
-
+.clientinfo{
+    display: flex;
+    padding:10px 0px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.first-control{
+    display: flex;
+    flex-wrap: wrap;
+    color: white;
+    font-size: 16px;
+    margin: 5px 0;
+}
+.first-control-input{
+    height: 40px;
+    width:95%;
+    border-radius: 5px;
+}
+.inputcontrol{
+    padding:10px;
+    border-radius: 8px;
+    box-shadow: 2px 2px 2px black;
+    margin-top:-10px;
+}
