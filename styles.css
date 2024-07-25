@@ -31,7 +31,7 @@ body{
     margin: 50 20px;
     border-radius: 10px;
     box-shadow: inset 4px 4px 4px white ;
-    color: white;
+    color: black;
     height: 700px;
 
 }
@@ -51,7 +51,7 @@ h4{
 h3{
     font-size: 20px;
     padding: 10px;
-    text-shadow: 2px 2px 2px black;
+    text-shadow: 2px 2px 2px white;
     
 }
 #purpose{
@@ -69,15 +69,15 @@ h3{
 .first-control{
     display: flex;
     flex-wrap: wrap;
-    color: white;
+    color: black;
     font-size: 16px;
-    margin: 5px 0;
+    margin: 5px 5px;
 }
-.first-control-input{
+/* .first-control-input{
     height: 40px;
     width:95%;
     border-radius: 5px;
-}
+} */
 .inputcontrol{
     width:250px;
     height: 50px;
@@ -85,6 +85,7 @@ h3{
     border-radius: 8px;
     box-shadow: 2px 2px 2px black;
     margin-top:-10px;
+   
 }
 .schedule{
     padding: 10px ;
@@ -104,6 +105,7 @@ h3{
     margin-top:-10px;
 }
 .genderbox{
-    text-align: right;
-    font-weight: bold;
+    display: block;
+    font-weight:bold;
+    text-align: left;
 }
