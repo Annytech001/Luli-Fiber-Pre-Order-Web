@@ -9,7 +9,7 @@ body{
     height: 100vh;
     justify-content: center;
     align-items: center;
-    background-image:url(/fiberimage.jpg);
+    /* background-image:url(/fiberimage.jpg); */
     background-size:cover;
 
 }
@@ -20,11 +20,14 @@ body{
     align-items:center;
     justify-content:center;
 }
+.purposecontrol{
+    height: 40px;
+}
 .container{
     width: 100%;
-    max-width: 650px;
-    background:rgb(116, 2, 108, 0.5);
-    padding: 50px;
+    max-width: 1000px;
+    background:rgba(145, 6, 183, 0.803);
+    padding: 30px;
     margin: 50 20px;
     border-radius: 10px;
     box-shadow: inset 4px 4px 4px white ;
@@ -76,8 +79,31 @@ h3{
     border-radius: 5px;
 }
 .inputcontrol{
+    width:250px;
+    height: 50px;
     padding:10px;
     border-radius: 8px;
     box-shadow: 2px 2px 2px black;
     margin-top:-10px;
+}
+.schedule{
+    padding: 10px ;
+    border-radius: 8px;
+}
+.summitform{
+    padding: 70px;
+   text-align: center;
+  
+}
+.sumitcontrol{
+    width:150px;
+    height: 45px;
+    padding:10px;
+    border-radius: 8px;
+    box-shadow: 2px 2px 2px black;
+    margin-top:-10px;
+}
+.genderbox{
+    text-align: right;
+    font-weight: bold;
 }
