@@ -6,7 +6,7 @@
 }
 body{
     display: flex;
-    height: 100vh;
+    height: 120vh;
     justify-content: center;
     align-items: center;
     /* background-image:url(/fiberimage.jpg); */
@@ -28,11 +28,11 @@ body{
     max-width: 1000px;
     background:rgba(145, 6, 183, 0.803);
     padding: 30px;
-    margin: 50 20px;
+    margin: 50 50px;
     border-radius: 10px;
     box-shadow: inset 4px 4px 4px white ;
     color: black;
-    height: 700px;
+    height:800px;
 
 }
 .formtitle{
@@ -66,25 +66,16 @@ h3{
     flex-wrap: wrap;
     justify-content: space-between;
 }
-.first-control{
-    display: flex;
-    flex-wrap: wrap;
-    color: black;
-    font-size: 16px;
-    margin: 5px 5px;
-}
-/* .first-control-input{
-    height: 40px;
-    width:95%;
-    border-radius: 5px;
-} */
+
 .inputcontrol{
-    width:250px;
+    width:400px;
     height: 50px;
     padding:10px;
     border-radius: 8px;
+    display: flex;
     box-shadow: 2px 2px 2px black;
-    margin-top:-10px;
+    margin-top: 10px;
+    
    
 }
 .schedule{
