@@ -35,9 +35,9 @@ body{
     height: 40px;
 }
 .container{
-    width: 100%;
+    width: 200%;
     max-width: 1000px;
-    background:rgba(145, 6, 183, 0.803);
+    background:rgba(217, 169, 230, 0.803);
     padding: 30px;
     margin: 50 50px;
     border-radius: 10px;
@@ -76,7 +76,7 @@ h3{
     padding:10px 0px;
     flex-wrap: wrap;
     justify-content: space-between;
-    gap: 15px;
+    gap: 10px;
 }
 
 .inputcontrol{
