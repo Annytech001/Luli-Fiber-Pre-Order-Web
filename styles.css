@@ -4,14 +4,6 @@
     font-family: sans-serif;
     box-sizing:border-box;
 }
-body{
-    display: flex;
-    height: 120vh;
-    justify-content: center;
-    align-items: center;
-    /* background-image:url(/fiberimage.jpg); */
-    background-size:cover;
-}
 #icon{
     width: 30px;
     cursor: pointer;
