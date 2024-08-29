@@ -1,13 +1,11 @@
 import React from 'react';
-import './App.css';
+import Login from './login';
 import Auth from './auth';
 
-const App: React.FC = () => {
+function App() {
   return (
-    <div className="App">
-      <Auth />
+    <div 
     </div>
   );
-};
-
+}
 export default App;
