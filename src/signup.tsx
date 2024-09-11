@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import lulipic  from "./assets/images/lulipic.jpg";
 
 const Signup: React.FC = () => {
   const [email, setEmail] = useState<string>("");
@@ -22,7 +23,7 @@ const Signup: React.FC = () => {
      <h2 className="text-2xl font-bold mb-6 text-center" style={{color:"purple"}}>Luli Fiber Pre-Order</h2>
      </div>
       
-      <div className="bg-white p-8 rounded-lg shadow-lg max-w-sm w-full">
+      <div className="bg-white p-8 rounded-lg flex shadow-lg max-w-6xl w-full">
         <h2 className="text-2xl font-bold mb-6 text-center" style={{color:"purple"}}>Sign Up</h2>
         <form onSubmit={handleSubmit}>
           <div className="mb-4">
@@ -74,6 +75,11 @@ const Signup: React.FC = () => {
             Sign Up
           </button>
         </form>
+
+        <div className="h-screen w-1/2 ">
+      <div className="h-full w-full border rounded-md" style={{backgroundImage:`url(${lulipic})`,backgroundSize:"auto", backgroundPosition: "center"}}>
+      </div>
+      </div>
       </div>
     </div>
   );
