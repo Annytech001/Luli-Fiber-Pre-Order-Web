@@ -17,13 +17,13 @@ const Signup: React.FC = () => {
   };
 
   return (
-    <div className="flex justify-center items-center h-screen bg-gray-100">
-     <div className="text-center mb-6">
-     <h2 className="text-2xl font-bold mb-6 text-center ">Luli Fiber Pre-Order</h2>
+    <div className="flex flex-col justify-center items-center h-screen bg-gray-300">
+     <div className="text-center ">
+     <h2 className="text-2xl font-bold mb-6 text-center" style={{color:"purple"}}>Luli Fiber Pre-Order</h2>
      </div>
       
       <div className="bg-white p-8 rounded-lg shadow-lg max-w-sm w-full">
-        <h2 className="text-2xl font-bold mb-6 text-center">Sign Up</h2>
+        <h2 className="text-2xl font-bold mb-6 text-center" style={{color:"purple"}}>Sign Up</h2>
         <form onSubmit={handleSubmit}>
           <div className="mb-4">
             <label className="block text-gray-700 font-medium mb-2" htmlFor="email">
