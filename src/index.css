@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* .mainform.box {
+    position: relative;
+    z-index: 10;
+    height: 80vh;
+    width: 75%;
+    background: rgba(255,245,255,0.1);
+    backdrop-filter: blur(25px);
+    border:3px solid #b3648c;
+    border-radius: 20px;
+    box-shadow: -15px 17px rgba(10,10,10,0.15);
+    padding:0 40px 0 80px;
+} */

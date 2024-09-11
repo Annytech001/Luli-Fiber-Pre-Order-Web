@@ -1,6 +1,6 @@
 import React from 'react';
 import SignUpForm from './signup';
-import './App.css';
+
 
 
 const App: React.FC = () => {
