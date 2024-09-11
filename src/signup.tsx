@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
-import './signup.css';
+// import './signup.css';
+// import { Link } from './login';
 
 interface SignUpFormData {
   name: string;
@@ -48,6 +49,7 @@ const SignUpForm: React.FC = () => {
 
   return (
     <div className="signup-form-container">
+        <h2>Luli Fiber Pre-Order Form </h2>
       <h2>Sign Up</h2>
       {errors.length > 0 && (
         <ul className="errors">
@@ -56,6 +58,8 @@ const SignUpForm: React.FC = () => {
           ))}
         </ul>
       )}
+      <div className="main-form">
+
       <form onSubmit={handleSubmit} className="signup-form">
         <div className="form-group">
           <label htmlFor="name">Full Name:</label>
@@ -101,8 +105,21 @@ const SignUpForm: React.FC = () => {
             required 
           />
         </div>
-        <button type="submit">Sign Up</button>
+
+        <div  className="terms">
+            <h4>I've read and agreed to the terms & conditions</h4>
+        </div>
+        <div className="sumbit">
+        <button type="submit">CREATE ACCOUNT</button>
+        </div>
+        
+        <div>
+            <p>Already have an account? </p>
+        </div>
       </form>
+
+
+      </div>
     </div>
   );
 };
